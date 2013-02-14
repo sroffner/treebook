@@ -4,9 +4,23 @@
 
 .status {
 	border-bottom: solid 1px #CCC;
-	padding: 5px 0
+	padding: 0 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .status p {
-	margin: 4px 0
+	margin: 4px 0px;
+}
+
+.status.hover {
+	background: #FAFAFA;
+}
+
+.status .admin {
+	display: none;
+}
+
+.status.hover .admin {
+	display: inline;
 }
